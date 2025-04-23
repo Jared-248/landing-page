@@ -1,0 +1,24 @@
+:root {
+  --primary-dark: #483D3F;
+  --primary-accent: #0B5351;
+  --neutral: #A39A92;
+  --light-bg: #F4EBD9;
+  --text-secondary: #77685D;
+}
+
+body {
+  background-color: var(--light-bg);
+  color: var(--primary-dark);
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  color: var(--primary-accent);
+}
+
+a {
+  color: var(--primary-accent);
+  text-decoration: none;
+}
